@@ -13,8 +13,9 @@
 			referrerpolicy="no-referrer"
 		/>
 		<title>Document</title>
+		<script type="module" src="./src/script.js"></script>
 	</head>
-	<body>
+	<body class="overflow">
 		<header>
 			<div class="container">
 				<h1>Instagram</h1>
@@ -149,6 +150,20 @@
 				</section>
 			</div>
 		</main>
+		<div class="modal">
+			<div class="modal__container">
+				<form id="login">
+					<h1>Instagram</h1>
+					<input type="text" name="username" placeholder="Username" />
+					<input
+						type="password"
+						name="password"
+						placeholder="Password"
+					/>
+					<button type="submit">Log in</button>
+				</form>
+			</div>
+		</div>
 		<footer>
 			<div class="container footer">
 				<div class="footer-flex">
