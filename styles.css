@@ -261,6 +261,26 @@ main .container {
 	padding: 0.5rem 0;
 	cursor: pointer;
 	margin-top: 1.25rem;
+	margin-bottom: 1.25rem;
+
+}
+
+/* REGISTER */
+.modal .modal__container form .signUp__hidden{
+	display: none;
+}
+.modal .modal__container form .sgn{
+	display: flex;
+	justify-content: center;
+	gap: 5px;
+	border-top:1px solid #bcbcbc;
+	padding: 1.5rem 0;
+	font-size: .8333rem;
+}
+#signUp__btn{
+	display: block;
+	color: #0095f6;
+	cursor: pointer;
 }
 
 /* ------------------------------------------- */
@@ -419,10 +439,10 @@ footer .credentials p:not(:last-child) {
 	.footer-flex .flex-item:nth-child(4) {
 		width: 35%;
 	} */
-	.footer-flex .flex-item:nth-child(4) {
+	/* .footer-flex .flex-item:nth-child(4) { */
 		/* flex: 2; */
 		/* flex - flex grow: 2 flex shrink 1 flex basis 0 */
-	}
+	/* } */
 	/* .footer-flex .flex-item:nth-child(1) {
 		flex: 2;
 	} */

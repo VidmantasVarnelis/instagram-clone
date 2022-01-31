@@ -1,5 +1,5 @@
 import { handleDisplay } from './utils.js';
-import { handleForm, handleFormSubmit } from './form.js';
+import { handleForm } from './form.js';
 import { ME_URL } from './api/urls.js';
 import { fetchData } from './api/requests.js';
 observerFunction();
@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		handleDisplay('.modal', 'hidden-modal');
 		displayProfileText();
 	} else {
-		handleForm('login', handleFormSubmit);
+		handleForm('login'); //removed function parameter
 	}
 });
 async function displayProfileText() {
